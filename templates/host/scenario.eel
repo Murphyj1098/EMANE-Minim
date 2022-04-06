@@ -1,0 +1,2 @@
+NOTE: Hardcode this file based on calculated pathlosses
+Format: <time> nem:<id> pathloss nem:<id>,<pathloss>[,<reversePathloss>]
