@@ -1,3 +1,5 @@
+<%from letce2.utils.network import CIDRNotation%>
+
 <otestpoint id="${__node_name}"
             discovery="${CIDRNotation.address(control_ip_addr)}:8881"
             publish="${CIDRNotation.address(control_ip_addr)}:8882">

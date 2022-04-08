@@ -107,10 +107,10 @@ then
         $top_dir/persist/$node_name/var/run/otestpoint-recorder.uuid
 fi
 
-# OTestPoint
+# OTestPoint Daemon
 if [ -f otestpoint.xml ]
 then
-    start_otestpoint \
+    start_otestpointd \
         $node_name \
         otestpoint.xml \
         $top_dir/persist/$node_name/var/log/otestpointd.log \
