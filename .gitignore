@@ -1,5 +1,7 @@
+# Ignore everything in experiment directory (generated files)
 /exp
-!/exp/experiment.cfg
-!/exp/letce2.cfg
-!/exp/Makefile
 
+# Except do not ignore persistent files (including in sub-directories)
+!experiment.cfg
+!letce2.cfg
+!Makefile

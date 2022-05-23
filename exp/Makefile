@@ -1,4 +1,4 @@
-topdir=..
+top_dir=..
 
 all:
 	letce2 \
