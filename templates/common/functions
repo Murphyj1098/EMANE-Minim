@@ -160,7 +160,7 @@ start_otestpoint_broker()
     then
         echo "$node_name: starting otestpoint-broker: $xml"
 
-        otestpoint-broker "$xml" -d -l e -f "$logfile" \
+        otestpoint-broker "$xml" -d -l 3 -f "$logfile" \
                           --pidfile "$pidfile" --uuidfile "$uuidfile"
 
         retval=$?

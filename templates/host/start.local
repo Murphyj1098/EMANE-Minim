@@ -9,11 +9,11 @@ cd "$top_dir/host"
 . ./functions
 
 # Start EMANE Event Service
-if [ -f eventservice.xml]
+if [ -f eventservice.xml ]
 then
     start_emaneeventservice \
         'host' \
-        eventservice.xml \ 
+        eventservice.xml \
         $top_dir/persist/host/var/log/emaneeventservice.log \
         $top_dir/persist/host/var/run/emaneeventservice.pid \
         $top_dir/persist/host/var/run/emaneeventservice.uuid \
