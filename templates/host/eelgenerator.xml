@@ -5,7 +5,7 @@
     <paramlist name="loader">
         <item value="commeffect:eelloadercommeffect:delta"/>
         <item value="location,velocity,orientation:eelloaderlocation:delta"/>
-        <item value="pathloss:eelloaderantennaprofile:delta"/>
+        <item value="pathloss:eelloaderpathloss:delta"/>
         <item value="antennaprofile:eelloaderantennaprofile:delta"/>
         <item value="fadingselection:eelloaderfadingselection:delta"/>
     </paramlist>
