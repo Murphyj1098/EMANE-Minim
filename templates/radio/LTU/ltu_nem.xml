@@ -2,6 +2,6 @@
 <!DOCTYPE nem SYSTEM 'file:///usr/share/emane/dtd/nem.dtd'>
 <nem>
     <transport definition="transvirtual.xml"/>
-    <mac definition="LTU_mac.xml"/>
-    <phy definition="LTU_phy.xml"/>
+    <mac definition="ltu_mac.xml"/>
+    <phy definition="ltu_phy.xml"/>
 </nem>

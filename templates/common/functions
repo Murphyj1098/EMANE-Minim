@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -
 
 start_emane()
 {
@@ -121,7 +121,7 @@ start_otestpointd()
         retval=1
     fi
 
-    return retval
+    return $retval
 }
 
 start_otestpoint_recorder()
@@ -141,11 +141,11 @@ start_otestpoint_recorder()
 
         retval=$?
     else
-        echo "$node_name: missing otestpoint-recorder XML: $xml"\
+        echo "$node_name: missing otestpoint-recorder XML: $xml"
         retval=1
     fi
 
-    return retval
+    return $retval
 }
 
 start_otestpoint_broker()
@@ -290,7 +290,7 @@ start_emaneeventd_and_wait_for_gpspty()
 {
     local node_name=$1
     local xml=$2
-    local logfiles=$3
+    local logfile=$3
     local pidfile=$4
     local uuidfile=$5
     local pty=$6
@@ -309,7 +309,7 @@ start_emaneeventd_and_wait_for_gpspty()
 
         if [[ $retval == 0 ]]
         then
-            while (! test -f $pty )
+            while (! test -f "$pty")
             do
                 echo "$node_name: waiting for GPS location PTY: $pty"
                 sleep 1
