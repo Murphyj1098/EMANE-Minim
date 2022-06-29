@@ -9,7 +9,9 @@
   <param name="eventservicedevice" value="${control_interface}"/>
   <param name="controlportendpoint" value="0.0.0.0:47000"/>
 
-  <nem definition="ltu_nem.xml" id="${nem_id}">
+  <nem definition="ltu_nem.xml" id="${nem_id}" transport="external">
+    <param name="platformendpoint" value="${platformendpoint}"/>
+    <param name="transportendpoint" value="${transportendpoint}"/>
     <transport definition="transvirtual.xml" group="${node_group}">
       <param name="device" value="${waveform_interface}"/>
       <param name="address" value="${CIDRNotation.address(radio_ip_addr)}"/>
