@@ -8,7 +8,7 @@
     <param name="flowcontroltokens"         value="10"/>
     <param name="jitter"                    value="0.000000"/>
     <param name="neighbormetricdeletetime"  value="60.000000"/>
-    <param name="pcrcurveuri"               value="LTU_pcr.xml"/>
+    <param name="pcrcurveuri"               value="ltu_pcr.xml"/>
     <param name="radiometricenable"         value="off"/>
     <param name="radiometricreportinterval" value="1"/>
 </mac>
