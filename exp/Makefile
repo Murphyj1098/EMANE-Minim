@@ -8,5 +8,7 @@ all:
 		$(top_dir)/node.cfg.d/mmwave.cfg \
 		experiment.cfg
 
+	emanegentransportxml -v nem-*/platform.xml
+	
 clean:
 	letce2 lxc clean
