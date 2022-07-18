@@ -1,0 +1,15 @@
+#!/bin/bash -
+
+node_name=$1
+
+if [ -f batman-adv ]
+then
+    if (! route | grep -q <ip_net> ) # If route to <ip_net> does not exist in routing table
+    then
+        echo "$node_name: ip route add <ip_net> via <gateway>"
+        ip route add <ip_net> via <gateway>
+    fi
+
+    # Additional routes
+
+fi
