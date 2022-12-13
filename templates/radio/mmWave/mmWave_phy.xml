@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE phy SYSTEM 'file:///usr/share/emane/dtd/phy.dtd'>
 <phy>
-    <param name="bandwidth"                         value="216000000"/>
+    <param name="bandwidth"                         value="1000000000"/>
     <param name="excludesamesubidfromfilterenable"  value="on"/>
     <param name="fading.model"                      value="none"/>
     <param name="fading.nakagami.distance0"         value="100.000000"/>
@@ -9,10 +9,10 @@
     <param name="fading.nakagami.m0"                value="0.750000"/>
     <param name="fading.nakagami.m1"                value="1.000000"/>
     <param name="fading.nakagami.m2"                value="200.000000"/>
-    <param name="fixedantennagain"                  value="38.000000"/>
+    <param name="fixedantennagain"                  value="43.000000"/>
     <param name="fixedantennagainenable"            value="on"/>
-    <param name="frequency"                         value="60000000000"/>
-    <param name="frequencyofinterest"               value="60000000000"/>
+    <param name="frequency"                         value="73000000000"/>
+    <param name="frequencyofinterest"               value="73000000000"/>
     <param name="noisebinsize"                      value="20"/>
     <param name="noisemaxclampenable"               value="off"/>
     <param name="noisemaxmessagepropagation"	    value="200000"/>

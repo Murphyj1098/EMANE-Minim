@@ -2,7 +2,7 @@
 <!DOCTYPE mac SYSTEM 'file:///usr/share/emane/dtd/mac.dtd'>
 <mac library="rfpipemaclayer">
     <param name="datarate"                  value="1000000000"/>
-    <param name="delay"                     value="0.000000"/>
+    <param name="delay"                     value="0.000500"/>
     <param name="enablepromiscuousmode"     value="off"/>
     <param name="flowcontrolenable"         value="off"/>
     <param name="flowcontroltokens"         value="10"/>

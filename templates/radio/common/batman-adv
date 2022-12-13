@@ -14,7 +14,4 @@ batctl meshif ${batman_interface} orig_interval ${batman_orig_interval}
 ip addr add ${radio_ip_addr} dev ${batman_interface}
 ip link set ${batman_interface} up
 
-if [ -f batman-routes ]
-then
-    ./batman-routes $node_name
-fi
+../routes/batman-routes-${id}
